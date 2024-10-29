@@ -1,0 +1,54 @@
+.add_hide{
+	display: none !important;	
+}
+.add_show{
+	display: block !important;	
+}
+/*
+.ui-autocomplete {
+            max-height: 50px;
+            overflow-x: hidden;
+            padding-right: 20px;
+} */
+.ui-autocomplete li .ui-menu-item-wrapper{
+    padding-bottom: 1px;
+    border-bottom: 0.1px solid #ccc;
+    /*margin-bottom: 4px;*/
+}
+.ui-autocomplete-term { 
+		font-weight: bold; 
+		color: black; 
+}
+.fndadress .optional{
+	display : none !important;
+}
+.fndpostcode .optional{
+	display : none !important;
+}
+.fndadresssh .optional{
+	display : none !important;
+}
+.fndpostcodesh  .optional{
+	display : none !important;
+}
+.loading_sa{
+	background: url("../images/loading_addressian.gif") no-repeat right center !important;
+}
+.ui-autocomplete-loading {
+	background: url("../images/loading_addressian.gif") no-repeat right center !important;
+}
+#shipping_phone_field{
+}
+#find_address {
+    padding-left: 10px
+ }
+
+.typeahead__button{
+	display: none !important;
+}
+.typeahead__list .typeahead__item > a {
+    text-decoration: none !important;
+}
+li.typeahead__item::before{
+	content: none !important;
+}
